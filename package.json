@@ -1,0 +1,48 @@
+{
+  "name": "nuxt-typescript-template",
+  "version": "1.0.0",
+  "description": "NuxtJS typescript project..",
+  "author": "lrembacz",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt build && nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/pwa": "^2.0.8",
+    "axios": "^0.16.2",
+    "cross-env": "^5.0.1",
+    "express": "^4.15.3",
+    "inversify": "^4.13.0",
+    "npm": "^6.2.0",
+    "nuxt": "latest",
+    "nuxt-class-component": "^1.2.1",
+    "nuxt-i18n": "^4.1.0",
+    "perfect-scrollbar": "^1.4.0",
+    "reflect-metadata": "^0.1.12",
+    "source-map-support": "^0.4.15",
+    "vue-class-component": "^6.2.0",
+    "vue-perfect-scrollbar": "^0.1.0",
+    "vue-property-decorator": "^7.0.0",
+    "vuetify": "^1.1.4",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-imports": "^1.5.0",
+    "babel-polyfill": "^6.26.0",
+    "es6-promise": "^4.2.4",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "ts-loader": "^3.5.0",
+    "tslint": "^5.10.0",
+    "tslint-config-standard": "^7.1.0",
+    "typescript": "^2.9.2"
+  }
+}
